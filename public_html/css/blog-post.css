@@ -1,0 +1,46 @@
+/*!
+ * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+# recaptcha1, #recaptcha2 {
+	width: 80%;
+	margin: 10px;
+	//float: left;
+}
+
+#commentButton, #updateCommentButton {
+	width: 80%; 
+	max-width: 300px;
+	height:50px; 
+	//float: right; 
+	padding: 10px;
+	margin: 10px;
+}
+
+.label {
+	margin-right: 10px;
+}
+
+#descWell {
+	text-align: justify;
+}
+
+#commentControll {
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
