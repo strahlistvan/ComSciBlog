@@ -53,15 +53,6 @@ return array(
 		),
 
 		'mysql' => array(
-		/*	'driver'    => 'mysql',
-			'host'      => 'mysql.hostinger.hu',
-			'database'  => 'u311070681_db01',
-			'username'  => 'u311070681_db01',
-			'password'  => 'v3ryb1gs3cr3t',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '', */
-			
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'project-blog',
