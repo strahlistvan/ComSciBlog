@@ -163,6 +163,10 @@
 
         <!-- Footer -->
         <footer>
+			<!-- hood.hu eu cookie / eleje -->
+			<script async src="//hood.hu/cookie.js" data-title="Ez a weboldal sütiket (cookie-kat) használ a jobb felhasználói élmény érdekében." data-moretext="Részletek..." data-morelink="{{url()}}/privacy" data-oktext="Rendben!" data-ver="1" id="hood-proposer"></script>
+			<!-- hood.hu eu cookie / vége -->
+
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; {{ trans('public.owner') }} {{ date('Y')  }}</p>
@@ -175,6 +179,11 @@
 		@include('search-modal')
     </div>
     <!-- /.container -->
+
+	
+	<!-- hood.hu eu cookie / eleje -->
+	<script async src="//hood.hu/cookie.js" data-title="{{ trans('public.cookie-info') }}" data-moretext="{{ trans('public.details') }}..." data-morelink="{{url()}}/privacy" data-oktext="{{ trans('public.accept') }}" data-ver="1" id="hood-proposer"></script>
+	<!-- hood.hu eu cookie / vége -->
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

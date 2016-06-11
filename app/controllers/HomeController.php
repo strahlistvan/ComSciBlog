@@ -43,6 +43,14 @@ class HomeController extends BaseController {
 		return View::make('about')->with( array('allKeywords' => $allKeywords, 'categories' => $categories) );
 	}
 	
+	public function showPrivacyPage()
+	{
+		$categories = DB::table('category')->where('lang', Session::get('myLocale') )->get();
+		$allKeywords = Helper::selectKeywords(Session::get('myLocale'));
+		return View::make('privacy')->with( array('allKeywords' => $allKeywords, 'categories' => $categories) );
+	}
+	
+	
 	/** Show the index page, the list of the articles whitch uses the given keyword */
 	public function showByKeyword($keyword, $pageNum=1)
 	{

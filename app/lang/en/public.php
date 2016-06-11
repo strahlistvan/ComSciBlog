@@ -49,6 +49,12 @@ return array(
 			'no-result' => ' No result for that:  ',
 			'thanks-home' => "Thanks for the blog's theme: <a href='http://startbootstrap.com/template-overviews/blog-home/' target='_blank' >startbootstrap.com</a> - <a href='https://github.com/IronSummitMedia/startbootstrap-blog-home'>davidtmiller(GitHub) </a>",
             'thanks-post' => "Thanks for the blog's theme: <a href='http://startbootstrap.com/template-overviews/blog-post/'target='_blank' >startbootstrap.com</a> - <a href='https://github.com/IronSummitMedia/startbootstrap-blog-post'>davidtmiller(GitHub) </a>",
+			'privacy' => "Privacy",
+			'privacy-text' => " There is <a href='https://www.google.com/analytics/' target='_blank'> Google Analytics </a> script in the site. It is using cookies to tracking users. If must accept it to continue. ",
+			'cookie-info' => "The page using cookies.",
+			'accept' => " Elfogad ",
+			'details' => " Részletek ",
+			'cookie-joke' => "You eated my cookies?  Source: <a href='https://goo.gl/syCyOC' title='Google Images'> Internet </a>",
 
 );
 	

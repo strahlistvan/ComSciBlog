@@ -50,5 +50,11 @@ return array(
 			'search-progess' => ' Keresés folyamatban... ',
 			'thanks-home' => "A sablonért köszönet: <a href='http://startbootstrap.com/template-overviews/blog-home/' target='_blank' >startbootstrap.com</a> - <a href='https://github.com/IronSummitMedia/startbootstrap-blog-home' target='_blank' >davidtmiller(GitHub) </a>",
             'thanks-post' => "A sablonért köszönet: <a href='http://startbootstrap.com/template-overviews/blog-post/'target='_blank' >startbootstrap.com</a> - <a href='https://github.com/IronSummitMedia/startbootstrap-blog-post' target='_blank' >davidtmiller(GitHub) </a>",
+			'privacy' => "Adatkezelés",
+			'privacy-text' => " Az oldal <a href='https://www.google.com/analytics/' target='_blank'> Google Analytics </a> mérőkódot használ, ami ideiglenes süti (cookie) fájlokat helyezhet el a számítógépén, és bizonyos névtelen adatokat kezelhet. Az oldal használatával elfogadja ezt a tényt. ",
+			'cookie-info' => " Ez a weboldal sütiket (cookie-kat) használ a jobb felhasználói élmény érdekében. ",
+			'accept' => " Elfogad ",
+			'details' => " Részletek ",
+			'cookie-joke' => "'Te etted meg a sütimet?' - kérdezi a cica. A kép forrása: <a href='https://goo.gl/syCyOC' title='Google Képek'> Internet </a>",
 );
 	

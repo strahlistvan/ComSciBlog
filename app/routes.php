@@ -20,6 +20,7 @@ Route::get('/article/{id}/{title}',  array('as' =>'/article/{id}', 'uses' => 'Ho
 Route::get('/keyword/{keyword}', array('uses' => 'HomeController@showByKeyword') );
 Route::get('/keyword/{keyword}/{pageNum}', array('uses' => 'HomeController@showByKeyword') );
 Route::get("/category/{category}", array('uses' => 'HomeController@showByCategory' ) );
+Route::get("/privacy", 'HomeController@showPrivacyPage');
 Route::post('searching', 'HomeController@search');
 
 /** Login page */
